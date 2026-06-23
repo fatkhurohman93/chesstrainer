@@ -1,9 +1,13 @@
-<html><head>
+<html>
+<head>
   <meta charset="UTF-8">
 
   <title>Local Chess Puzzle Trainer</title>
 
-<link rel="stylesheet" href="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.css" integrity="sha384-q94+BZtLrkL1/ohfjR8c6L+A6qzNH9R2hBLwyoAfu3i/WCvQjzL2RQJ3uNHDISdU" crossorigin="anonymous">
+<link rel="stylesheet"
+      href="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.css"
+      integrity="sha384-q94+BZtLrkL1/ohfjR8c6L+A6qzNH9R2hBLwyoAfu3i/WCvQjzL2RQJ3uNHDISdU"
+      crossorigin="anonymous">
 
   <style>
     * {
@@ -67,13 +71,11 @@
       overflow: visible;
     }
 
-    #arrowCanvas {
+    #arrowSvg {
       position: absolute;
       top: 0;
       left: 0;
-      cursor: none;
       z-index: 100;
-      display: block;
       pointer-events: none;
     }
 
@@ -293,7 +295,16 @@
   <div class="container">
     <div class="row">
       <div class="board-section">
-        <div id="board"><div class="chessboard-63f37"><div class="board-b72b1" style="width: 416px;"><div class="row-5277c"><div class="square-55d63 white-1e1d7 square-a8" style="width:52px;height:52px;" id="a8-0723-9658-cc43-5daa-4b31-5917-db53-42fe" data-square="a8"><div class="notation-322f9 numeric-fc462">8</div><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/bR.png" alt="" class="piece-417db" data-piece="bR" style="width:52px;height:52px;"></div><div class="square-55d63 black-3c85d square-b8" style="width:52px;height:52px;" id="b8-22a0-f15c-cb78-c231-988f-14fa-692f-a30d" data-square="b8"><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/bN.png" alt="" class="piece-417db" data-piece="bN" style="width:52px;height:52px;"></div><div class="square-55d63 white-1e1d7 square-c8" style="width:52px;height:52px;" id="c8-61a2-b1c9-882c-4bd1-7391-4254-53a4-c911" data-square="c8"><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/bB.png" alt="" class="piece-417db" data-piece="bB" style="width:52px;height:52px;"></div><div class="square-55d63 black-3c85d square-d8" style="width:52px;height:52px;" id="d8-5ea9-ce7f-46c5-d043-aefb-cf0c-e309-c0d6" data-square="d8"><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/bQ.png" alt="" class="piece-417db" data-piece="bQ" style="width:52px;height:52px;"></div><div class="square-55d63 white-1e1d7 square-e8" style="width:52px;height:52px;" id="e8-4762-ba2d-9498-a755-6ff1-4753-2492-f436" data-square="e8"><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/bK.png" alt="" class="piece-417db" data-piece="bK" style="width:52px;height:52px;"></div><div class="square-55d63 black-3c85d square-f8" style="width:52px;height:52px;" id="f8-1e8d-efdb-d100-73af-7f62-0420-b7ff-a497" data-square="f8"><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/bB.png" alt="" class="piece-417db" data-piece="bB" style="width:52px;height:52px;"></div><div class="square-55d63 white-1e1d7 square-g8" style="width:52px;height:52px;" id="g8-b65a-5c10-b5b4-7648-3fcf-1230-661c-810e" data-square="g8"><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/bN.png" alt="" class="piece-417db" data-piece="bN" style="width:52px;height:52px;"></div><div class="square-55d63 black-3c85d square-h8" style="width:52px;height:52px;" id="h8-3ea4-025a-d73a-53ad-fa03-a89e-416e-2541" data-square="h8"><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/bR.png" alt="" class="piece-417db" data-piece="bR" style="width:52px;height:52px;"></div><div class="clearfix-7da63"></div></div><div class="row-5277c"><div class="square-55d63 black-3c85d square-a7" style="width:52px;height:52px;" id="a7-6599-fc0d-5201-6ed9-58ed-5f15-c0d6-f11a" data-square="a7"><div class="notation-322f9 numeric-fc462">7</div><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/bP.png" alt="" class="piece-417db" data-piece="bP" style="width:52px;height:52px;"></div><div class="square-55d63 white-1e1d7 square-b7" style="width:52px;height:52px;" id="b7-1a7d-a4b9-17f6-4ba5-acde-7502-3208-402b" data-square="b7"><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/bP.png" alt="" class="piece-417db" data-piece="bP" style="width:52px;height:52px;"></div><div class="square-55d63 black-3c85d square-c7" style="width:52px;height:52px;" id="c7-7bc1-fdcc-363a-1549-682f-4b55-6a85-c4b0" data-square="c7"><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/bP.png" alt="" class="piece-417db" data-piece="bP" style="width:52px;height:52px;"></div><div class="square-55d63 white-1e1d7 square-d7" style="width:52px;height:52px;" id="d7-3078-8e55-4f39-f5ac-3f28-6f45-7946-bcd5" data-square="d7"><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/bP.png" alt="" class="piece-417db" data-piece="bP" style="width:52px;height:52px;"></div><div class="square-55d63 black-3c85d square-e7" style="width:52px;height:52px;" id="e7-dea4-dc2d-bfe0-6e1d-92a2-4d5f-00dc-dc06" data-square="e7"><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/bP.png" alt="" class="piece-417db" data-piece="bP" style="width:52px;height:52px;"></div><div class="square-55d63 white-1e1d7 square-f7" style="width:52px;height:52px;" id="f7-0ee1-5800-5508-e9a3-9194-f98f-6fae-bb4f" data-square="f7"><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/bP.png" alt="" class="piece-417db" data-piece="bP" style="width:52px;height:52px;"></div><div class="square-55d63 black-3c85d square-g7" style="width:52px;height:52px;" id="g7-c4d2-ad16-05bf-f0d6-d5a4-6dd2-d2a6-30bf" data-square="g7"><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/bP.png" alt="" class="piece-417db" data-piece="bP" style="width:52px;height:52px;"></div><div class="square-55d63 white-1e1d7 square-h7" style="width:52px;height:52px;" id="h7-7c0f-d31b-4095-3bfb-68d2-366e-f9ba-f170" data-square="h7"><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/bP.png" alt="" class="piece-417db" data-piece="bP" style="width:52px;height:52px;"></div><div class="clearfix-7da63"></div></div><div class="row-5277c"><div class="square-55d63 white-1e1d7 square-a6" style="width:52px;height:52px;" id="a6-832f-87a8-64f5-8e3e-67c1-5234-7754-3c62" data-square="a6"><div class="notation-322f9 numeric-fc462">6</div></div><div class="square-55d63 black-3c85d square-b6" style="width:52px;height:52px;" id="b6-80a1-71da-706b-1087-1a9b-a817-465b-e642" data-square="b6"></div><div class="square-55d63 white-1e1d7 square-c6" style="width:52px;height:52px;" id="c6-4946-fc80-5e92-5be3-6b7c-e0dc-a9af-ce60" data-square="c6"></div><div class="square-55d63 black-3c85d square-d6" style="width:52px;height:52px;" id="d6-bbb0-b121-a477-3546-eabc-5ce3-29f8-a03c" data-square="d6"></div><div class="square-55d63 white-1e1d7 square-e6" style="width:52px;height:52px;" id="e6-aa8f-4247-f346-90e0-84bf-23e5-7e89-de0f" data-square="e6"></div><div class="square-55d63 black-3c85d square-f6" style="width:52px;height:52px;" id="f6-1810-5b33-4a24-6d03-b4b6-879e-eac1-4b20" data-square="f6"></div><div class="square-55d63 white-1e1d7 square-g6" style="width:52px;height:52px;" id="g6-453c-0761-7372-f211-daf7-cee8-d90c-a303" data-square="g6"></div><div class="square-55d63 black-3c85d square-h6" style="width:52px;height:52px;" id="h6-b730-f163-ad3d-55b2-d051-5cbc-df8a-be29" data-square="h6"></div><div class="clearfix-7da63"></div></div><div class="row-5277c"><div class="square-55d63 black-3c85d square-a5" style="width:52px;height:52px;" id="a5-e7a9-92dc-44b1-a484-265e-e03f-cb27-2b16" data-square="a5"><div class="notation-322f9 numeric-fc462">5</div></div><div class="square-55d63 white-1e1d7 square-b5" style="width:52px;height:52px;" id="b5-f6a3-f889-8e6b-c454-4d0c-d053-559b-f47d" data-square="b5"></div><div class="square-55d63 black-3c85d square-c5" style="width:52px;height:52px;" id="c5-a973-0690-7db7-68b7-6dfd-b378-bd7e-7242" data-square="c5"></div><div class="square-55d63 white-1e1d7 square-d5" style="width:52px;height:52px;" id="d5-bda0-a5c8-1a70-6a3c-314c-0611-fef1-14fb" data-square="d5"></div><div class="square-55d63 black-3c85d square-e5" style="width:52px;height:52px;" id="e5-5881-d5a9-1762-60fa-7ebb-0c59-c654-e83e" data-square="e5"></div><div class="square-55d63 white-1e1d7 square-f5" style="width:52px;height:52px;" id="f5-eb5f-7af4-c3a3-39d9-39fb-571c-aebf-23a2" data-square="f5"></div><div class="square-55d63 black-3c85d square-g5" style="width:52px;height:52px;" id="g5-fbbc-84b8-7244-d2b6-6c07-2a22-58d0-7c9d" data-square="g5"></div><div class="square-55d63 white-1e1d7 square-h5" style="width:52px;height:52px;" id="h5-d66b-b2a5-eb4f-31ca-f49d-f5a3-e2ed-1c62" data-square="h5"></div><div class="clearfix-7da63"></div></div><div class="row-5277c"><div class="square-55d63 white-1e1d7 square-a4" style="width:52px;height:52px;" id="a4-b79f-3312-1575-523c-3de7-233a-31bd-b0b5" data-square="a4"><div class="notation-322f9 numeric-fc462">4</div></div><div class="square-55d63 black-3c85d square-b4" style="width:52px;height:52px;" id="b4-240c-f9ca-aa7c-0c77-f7d2-e4fc-0b9c-2d80" data-square="b4"></div><div class="square-55d63 white-1e1d7 square-c4" style="width:52px;height:52px;" id="c4-1a01-4e9b-244c-b400-8403-f822-8de5-b99e" data-square="c4"></div><div class="square-55d63 black-3c85d square-d4" style="width:52px;height:52px;" id="d4-b06e-49d8-ef3b-7744-74c3-076d-460f-c819" data-square="d4"></div><div class="square-55d63 white-1e1d7 square-e4" style="width:52px;height:52px;" id="e4-3fe5-cb5c-3ea4-63ef-d507-4edb-3a32-ddae" data-square="e4"></div><div class="square-55d63 black-3c85d square-f4" style="width:52px;height:52px;" id="f4-b5aa-8731-75fc-3653-ca5d-d920-d9b6-f765" data-square="f4"></div><div class="square-55d63 white-1e1d7 square-g4" style="width:52px;height:52px;" id="g4-4864-fa20-5448-0ec2-26f6-a37a-ac39-0772" data-square="g4"></div><div class="square-55d63 black-3c85d square-h4" style="width:52px;height:52px;" id="h4-f9f3-a871-90cb-056a-9b72-82b3-1fe7-b459" data-square="h4"></div><div class="clearfix-7da63"></div></div><div class="row-5277c"><div class="square-55d63 black-3c85d square-a3" style="width:52px;height:52px;" id="a3-cbd2-5570-f4ac-fb0d-b91e-c048-4594-0495" data-square="a3"><div class="notation-322f9 numeric-fc462">3</div></div><div class="square-55d63 white-1e1d7 square-b3" style="width:52px;height:52px;" id="b3-b838-73a1-ba1f-7788-691f-80bf-c809-eba0" data-square="b3"></div><div class="square-55d63 black-3c85d square-c3" style="width:52px;height:52px;" id="c3-d6db-9798-e1ec-6c77-8293-c145-8354-fb1a" data-square="c3"></div><div class="square-55d63 white-1e1d7 square-d3" style="width:52px;height:52px;" id="d3-bcf6-09fd-e660-ce48-6b19-8e6a-5c4e-ccf8" data-square="d3"></div><div class="square-55d63 black-3c85d square-e3" style="width:52px;height:52px;" id="e3-b49b-0318-e47c-f1f5-4c40-8a15-2030-114f" data-square="e3"></div><div class="square-55d63 white-1e1d7 square-f3" style="width:52px;height:52px;" id="f3-d6b5-2c2d-46fe-d505-a7b8-4d98-e6b3-310c" data-square="f3"></div><div class="square-55d63 black-3c85d square-g3" style="width:52px;height:52px;" id="g3-ed2b-365a-d0a6-05e3-8f8d-9879-189b-dabb" data-square="g3"></div><div class="square-55d63 white-1e1d7 square-h3" style="width:52px;height:52px;" id="h3-6a40-323b-2344-1aa3-6c8e-066d-8582-5cf7" data-square="h3"></div><div class="clearfix-7da63"></div></div><div class="row-5277c"><div class="square-55d63 white-1e1d7 square-a2" style="width:52px;height:52px;" id="a2-ef2e-f859-0271-6ce0-35ef-0e30-64cf-73f0" data-square="a2"><div class="notation-322f9 numeric-fc462">2</div><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/wP.png" alt="" class="piece-417db" data-piece="wP" style="width:52px;height:52px;"></div><div class="square-55d63 black-3c85d square-b2" style="width:52px;height:52px;" id="b2-e064-21e8-ac85-b279-69e3-9aea-0bc1-9798" data-square="b2"><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/wP.png" alt="" class="piece-417db" data-piece="wP" style="width:52px;height:52px;"></div><div class="square-55d63 white-1e1d7 square-c2" style="width:52px;height:52px;" id="c2-1f31-792f-5155-c79d-8eaf-e913-d454-c9c2" data-square="c2"><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/wP.png" alt="" class="piece-417db" data-piece="wP" style="width:52px;height:52px;"></div><div class="square-55d63 black-3c85d square-d2" style="width:52px;height:52px;" id="d2-64c7-659b-dcdd-41e7-1124-9bb1-af01-12f8" data-square="d2"><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/wP.png" alt="" class="piece-417db" data-piece="wP" style="width:52px;height:52px;"></div><div class="square-55d63 white-1e1d7 square-e2" style="width:52px;height:52px;" id="e2-bd3e-0a69-5344-850e-6802-cd07-ad9a-8546" data-square="e2"><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/wP.png" alt="" class="piece-417db" data-piece="wP" style="width:52px;height:52px;"></div><div class="square-55d63 black-3c85d square-f2" style="width:52px;height:52px;" id="f2-9b64-12a3-d6c6-61c4-c33d-50ea-4936-3ee5" data-square="f2"><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/wP.png" alt="" class="piece-417db" data-piece="wP" style="width:52px;height:52px;"></div><div class="square-55d63 white-1e1d7 square-g2" style="width:52px;height:52px;" id="g2-ed16-9d3e-f94d-c254-d35e-8ed4-f408-30d8" data-square="g2"><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/wP.png" alt="" class="piece-417db" data-piece="wP" style="width:52px;height:52px;"></div><div class="square-55d63 black-3c85d square-h2" style="width:52px;height:52px;" id="h2-4354-1e3b-80cc-fec3-948f-48d5-1506-53b8" data-square="h2"><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/wP.png" alt="" class="piece-417db" data-piece="wP" style="width:52px;height:52px;"></div><div class="clearfix-7da63"></div></div><div class="row-5277c"><div class="square-55d63 black-3c85d square-a1" style="width:52px;height:52px;" id="a1-d235-b6ef-2e8a-b0fa-3372-faf6-f94e-0d53" data-square="a1"><div class="notation-322f9 alpha-d2270">a</div><div class="notation-322f9 numeric-fc462">1</div><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/wR.png" alt="" class="piece-417db" data-piece="wR" style="width:52px;height:52px;"></div><div class="square-55d63 white-1e1d7 square-b1" style="width:52px;height:52px;" id="b1-d4ea-27b6-d364-d1ca-e104-ab88-4806-4bb1" data-square="b1"><div class="notation-322f9 alpha-d2270">b</div><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/wN.png" alt="" class="piece-417db" data-piece="wN" style="width:52px;height:52px;"></div><div class="square-55d63 black-3c85d square-c1" style="width:52px;height:52px;" id="c1-c7ca-7688-cdc7-affe-5585-45ae-4cb8-5857" data-square="c1"><div class="notation-322f9 alpha-d2270">c</div><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/wB.png" alt="" class="piece-417db" data-piece="wB" style="width:52px;height:52px;"></div><div class="square-55d63 white-1e1d7 square-d1" style="width:52px;height:52px;" id="d1-c717-03d3-2dd7-80b8-946f-24ea-54aa-64a0" data-square="d1"><div class="notation-322f9 alpha-d2270">d</div><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/wQ.png" alt="" class="piece-417db" data-piece="wQ" style="width:52px;height:52px;"></div><div class="square-55d63 black-3c85d square-e1" style="width:52px;height:52px;" id="e1-2aab-7905-a6d6-0924-8f00-4a58-d015-7064" data-square="e1"><div class="notation-322f9 alpha-d2270">e</div><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/wK.png" alt="" class="piece-417db" data-piece="wK" style="width:52px;height:52px;"></div><div class="square-55d63 white-1e1d7 square-f1" style="width:52px;height:52px;" id="f1-907c-87f1-00ae-88e1-b23c-c1ee-879f-0ca8" data-square="f1"><div class="notation-322f9 alpha-d2270">f</div><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/wB.png" alt="" class="piece-417db" data-piece="wB" style="width:52px;height:52px;"></div><div class="square-55d63 black-3c85d square-g1" style="width:52px;height:52px;" id="g1-8f19-44d7-939c-26a7-a461-d2af-bdb1-7014" data-square="g1"><div class="notation-322f9 alpha-d2270">g</div><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/wN.png" alt="" class="piece-417db" data-piece="wN" style="width:52px;height:52px;"></div><div class="square-55d63 white-1e1d7 square-h1" style="width:52px;height:52px;" id="h1-be17-2a9b-783c-5ba4-f06c-11f7-59dd-be88" data-square="h1"><div class="notation-322f9 alpha-d2270">h</div><img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/wR.png" alt="" class="piece-417db" data-piece="wR" style="width:52px;height:52px;"></div><div class="clearfix-7da63"></div></div></div></div></div>
+        <div style="position: relative; width: 420px; height: 420px;">
+          <div id="board"></div>
+          <svg id="arrowSvg" width="420" height="420" style="position: absolute; top: 0; left: 0; z-index: 100; pointer-events: none; opacity:0.6;">
+            <defs>
+              <marker id="arrowhead" markerWidth="6" markerHeight="6" refX="9" refY="3" orient="auto">
+                <polygon points="0 0, 10 3, 0 6" fill="#FFD700" />
+              </marker>
+            </defs>
+          </svg>
+        </div>
         <p id="status"></p>
         <div class="button-group">
           <button class="btn-nav" onclick="prevMove()">← Prev</button>
@@ -306,12 +317,17 @@
       <div class="panel">
         <h3>Create Puzzle JSON</h3>
 
-        <textarea id="puzzleJson" rows="12"></textarea>
+        <textarea id="puzzleJson" rows="12">{
+  "title": "Caro-Kann Rc8",
+  "fen": "r2qk2r/pp2bppp/2n1p3/3pPn2/3P2b1/P1N1BN2/1P2BPPP/R2Q1RK1 b kq - 0 11",
+  "pgn": "1. e4 c6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 cxd4 6. cxd4 Bg4 7. Be2 e6 8. O-O Nge7 9. Nc3 Nf5 10. Be3 Be7 11. a3 Rc8 12. Rc1 Nxe3 13. fxe3",
+  "playAs": "black"
+}</textarea>
 
         <button class="btn-save" onclick="savePuzzle()">💾 Save Puzzle</button>
 
         <h3>Saved Puzzles</h3>
-        <select id="puzzleList" onchange="loadSelectedPuzzle()"><option value="1782232414701">Caro-Kann Advance Variation #1</option></select>
+        <select id="puzzleList" onchange="loadSelectedPuzzle()"></select>
         <button class="btn-delete" onclick="deletePuzzle()">🗑️ Delete Selected</button>
 
         <label>
@@ -320,7 +336,7 @@
         </label>
 
         <label>
-          <input type="checkbox" id="tutorialMode" checked="">
+          <input type="checkbox" id="tutorialMode" checked>
           Tutorial Mode (show arrows)
         </label>
 
@@ -345,7 +361,9 @@
 
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
- <script src="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.js" integrity="sha384-8Vi8VHwn3vjQ9eUHUxex3JSN/NFqUg3QbPyX8kWyb93+8AC/pPWTzj+nHtbC5bxD" crossorigin="anonymous"></script>
+ <script src="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.js"
+        integrity="sha384-8Vi8VHwn3vjQ9eUHUxex3JSN/NFqUg3QbPyX8kWyb93+8AC/pPWTzj+nHtbC5bxD"
+        crossorigin="anonymous"></script>
 
   <script>
     let board;
@@ -355,8 +373,7 @@
     let moveIndex = 0;
     let correct = 0;
     let wrong = 0;
-    let arrowCanvas;
-    let arrowCtx;
+    let arrowSvg;
 
     const STORAGE_KEY = "local_chess_puzzles";
     const SQUARE_SIZE = 52.5; // 420px / 8 squares
@@ -500,9 +517,7 @@
 
       board.orientation(puzzle.playAs);
       
-      // Ensure canvas is properly sized and cleared
-      arrowCanvas.width = 420;
-      arrowCanvas.height = 420;
+      // Ensure SVG is ready
       clearArrows();
       
       autoPlayOpponentIfNeeded();
@@ -654,65 +669,58 @@
       return { x, y };
     }
 
+    function clearArrows() {
+      // Remove all arrow lines from SVG
+      const arrows = arrowSvg.querySelectorAll("line");
+      arrows.forEach(arrow => arrow.remove());
+      const circles = arrowSvg.querySelectorAll("circle");
+      circles.forEach(circle => circle.remove());
+    }
+
     function drawArrow(fromSquare, toSquare) {
+      if (!arrowSvg) {
+        console.error("arrowSvg is not initialized");
+        return;
+      }
+
       const from = squareToCoords(fromSquare);
       const to = squareToCoords(toSquare);
 
-      const headlen = 30;
-      const angle = Math.atan2(to.y - from.y, to.x - from.x);
+      console.log("Arrow coords - from:", from, "to:", to);
 
-      // Draw shadow for depth
-      arrowCtx.strokeStyle = "rgba(0, 0, 0, 0.3)";
-      arrowCtx.lineWidth = 10;
-      arrowCtx.lineCap = "round";
-      arrowCtx.lineJoin = "round";
-      arrowCtx.beginPath();
-      arrowCtx.moveTo(from.x + 3, from.y + 3);
-      arrowCtx.lineTo(to.x + 3, to.y + 3);
-      arrowCtx.stroke();
+      // Draw thick glow line
+      const glowLine = document.createElementNS("http://www.w3.org/2000/svg", "line");
+      glowLine.setAttribute("x1", from.x);
+      glowLine.setAttribute("y1", from.y);
+      glowLine.setAttribute("x2", to.x);
+      glowLine.setAttribute("y2", to.y);
+      glowLine.setAttribute("stroke", "#FFD700");
+      glowLine.setAttribute("stroke-width", "18");
+      glowLine.setAttribute("stroke-linecap", "round");
+      glowLine.setAttribute("opacity", "0.3");
+      arrowSvg.appendChild(glowLine);
 
-      // Draw bright glow
-      arrowCtx.strokeStyle = "rgba(255, 215, 0, 0.4)";
-      arrowCtx.lineWidth = 16;
-      arrowCtx.beginPath();
-      arrowCtx.moveTo(from.x, from.y);
-      arrowCtx.lineTo(to.x, to.y);
-      arrowCtx.stroke();
+      // Draw main arrow line
+      const arrowLine = document.createElementNS("http://www.w3.org/2000/svg", "line");
+      arrowLine.setAttribute("x1", from.x);
+      arrowLine.setAttribute("y1", from.y);
+      arrowLine.setAttribute("x2", to.x);
+      arrowLine.setAttribute("y2", to.y);
+      arrowLine.setAttribute("stroke", "#FFD700");
+      arrowLine.setAttribute("stroke-width", "8");
+      arrowLine.setAttribute("stroke-linecap", "round");
+      arrowLine.setAttribute("marker-end", "url(#arrowhead)");
+      arrowSvg.appendChild(arrowLine);
 
-      // Draw main arrow line (bright gold)
-      arrowCtx.strokeStyle = "#FFD700";
-      arrowCtx.lineWidth = 8;
-      arrowCtx.lineCap = "round";
-      arrowCtx.lineJoin = "round";
+      // Draw start circle
+      const startCircle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+      startCircle.setAttribute("cx", from.x);
+      startCircle.setAttribute("cy", from.y);
+      startCircle.setAttribute("r", "9");
+      startCircle.setAttribute("fill", "#FFD700");
+      arrowSvg.appendChild(startCircle);
 
-      arrowCtx.beginPath();
-      arrowCtx.moveTo(from.x, from.y);
-      arrowCtx.lineTo(to.x, to.y);
-      arrowCtx.stroke();
-
-      // Draw arrowhead
-      arrowCtx.fillStyle = "#FFD700";
-      arrowCtx.beginPath();
-      arrowCtx.moveTo(to.x, to.y);
-      arrowCtx.lineTo(to.x - headlen * Math.cos(angle - Math.PI / 6), to.y - headlen * Math.sin(angle - Math.PI / 6));
-      arrowCtx.lineTo(to.x - headlen * Math.cos(angle + Math.PI / 6), to.y - headlen * Math.sin(angle + Math.PI / 6));
-      arrowCtx.closePath();
-      arrowCtx.fill();
-
-      // Draw start circle with glow
-      arrowCtx.fillStyle = "rgba(255, 215, 0, 0.3)";
-      arrowCtx.beginPath();
-      arrowCtx.arc(from.x, from.y, 14, 0, Math.PI * 2);
-      arrowCtx.fill();
-
-      arrowCtx.fillStyle = "#FFD700";
-      arrowCtx.beginPath();
-      arrowCtx.arc(from.x, from.y, 9, 0, Math.PI * 2);
-      arrowCtx.fill();
-    }
-
-    function clearArrows() {
-      arrowCtx.clearRect(0, 0, arrowCanvas.width, arrowCanvas.height);
+      console.log("Arrow drawn successfully");
     }
 
     function drawTutorialArrows() {
@@ -722,11 +730,16 @@
         return;
       }
 
+      // Debug: log to console
+      console.log("Drawing arrows. moveIndex:", moveIndex, "lineMoves length:", lineMoves.length);
+
       if (moveIndex < lineMoves.length) {
         const currentMove = lineMoves[moveIndex];
+        console.log("Current move:", currentMove);
         
         // Only show arrow if it's the player's turn
         if (currentMove.color === getPlayerColor()) {
+          console.log("Drawing arrow from", currentMove.from, "to", currentMove.to);
           drawArrow(currentMove.from, currentMove.to);
         }
       }
@@ -826,10 +839,8 @@
     window.onload = function () {
       game = new Chess();
 
-      arrowCanvas = document.getElementById("arrowCanvas");
-      arrowCanvas.width = 420;
-      arrowCanvas.height = 420;
-      arrowCtx = arrowCanvas.getContext("2d");
+      arrowSvg = document.getElementById("arrowSvg");
+      console.log("arrowSvg element:", arrowSvg);
 
       board = Chessboard("board", {
         draggable: true,
@@ -850,7 +861,10 @@
 
       document
         .getElementById("tutorialMode")
-        .addEventListener("change", updateUI);
+        .addEventListener("change", function() {
+          console.log("Tutorial mode toggled");
+          updateUI();
+        });
 
       // Keyboard navigation
       document.addEventListener("keydown", function(e) {
@@ -866,6 +880,5 @@
   </script>
 
 
-
-
-<img src="https://raw.githubusercontent.com/oakmac/chessboardjs/master/website/img/chesspieces/wikipedia/wP.png" id="0152-b9b9-d670-48f9-b34c-66cb-2bbb-45bd" alt="" class="piece-417db" data-piece="wP" style="width: 52px; height: 52px; display: none;"></body></html>
+</body>
+</html>
